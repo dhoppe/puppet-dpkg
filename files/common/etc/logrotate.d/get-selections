@@ -1,0 +1,11 @@
+#
+# THIS FILE IS MANAGED BY PUPPET
+# /etc/puppet/modules/production/dpkg/files/common/etc/logrotate.d/get-selections
+#
+
+/var/backups/get-selections.log {
+	compress
+	daily
+	missingok
+	rotate 7
+}

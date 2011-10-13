@@ -1,0 +1,7 @@
+#
+# THIS FILE IS MANAGED BY PUPPET
+# /etc/puppet/modules/production/dpkg/files/common/etc/cron.d/get-selections
+#
+
+# get-selections
+15 *	* * *	root	/usr/bin/dpkg --get-selections > /var/backups/get-selections.log

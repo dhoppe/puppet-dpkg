@@ -1,0 +1,19 @@
+{
+  "name": "dhoppe-dpkg",
+  "author": "Dennis Hoppe",
+  "description": "DPKG Module for Debian, Ubuntu",
+  "license": "GPLv2",
+  "project_page": "http://github.com/dhoppe/puppet-dpkg",
+  "source": "git://github.com/dhoppe/puppet-dpkg",
+  "summary": "DPKG Module",
+  "version": "0.0.1",
+  "checksums": {
+    "Modulefile": "85a621d68cf41f7be557bd37529a1991",
+    "README": "d120e784de441d88118e7fb5a14f1317",
+    "manifests/init.pp": "64fff7a35527296f9ad7b5af74e8b0fb",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
+    "tests/init.pp": "6ede9ad33fdb2396490dc57aa0d52320"
+  },
+  "dependencies": []
+}

@@ -1,0 +1,17 @@
+# Class: dpkg
+#   This module manages dpkg
+#
+# Definition:
+#   -
+#
+# Parameters:
+#   -
+#
+# Actions:
+#   Saves a list of installed packages
+#
+# Requires:
+#   -
+#
+# Sample Usage:
+#   -
