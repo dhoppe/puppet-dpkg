@@ -6,9 +6,9 @@
   "project_page": "http://github.com/dhoppe/puppet-dpkg",
   "source": "git://github.com/dhoppe/puppet-dpkg",
   "summary": "DPKG Module",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "checksums": {
-    "Modulefile": "85a621d68cf41f7be557bd37529a1991",
+    "Modulefile": "ddaa0b0d17184b98d61b285f1e309a66",
     "README": "d120e784de441d88118e7fb5a14f1317",
     "files/common/etc/cron.d/get-selections": "f1f8d2d045270a94ef0dff6a856c5ff0",
     "files/common/etc/logrotate.d/get-selections": "98dff168fa3c1c1eae6eea5b9f440062",
