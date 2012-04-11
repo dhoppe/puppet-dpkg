@@ -1,5 +1,5 @@
 name 'dhoppe-dpkg'
-version '0.0.3'
+version '0.0.4'
 
 author 'Dennis Hoppe'
 license 'GPLv2'
