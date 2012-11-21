@@ -17,7 +17,7 @@
     "files/common/etc/cron.d/get-selections": "f1f8d2d045270a94ef0dff6a856c5ff0",
     "files/common/etc/logrotate.d/get-selections": "98dff168fa3c1c1eae6eea5b9f440062",
     "manifests/init.pp": "543b9ac4035bef182e991594bad4f0e9",
-    "manifests/params.pp": "941c9ee63db6ad7c1d1d00b6153213b1",
+    "manifests/params.pp": "4c6d0863b2e1a4b7bc299567f33fa86f",
     "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
     "spec/spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
     "tests/init.pp": "6ede9ad33fdb2396490dc57aa0d52320"
