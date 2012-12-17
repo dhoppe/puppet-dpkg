@@ -1,4 +1,4 @@
-# = Class: dpkg
+# = Class: dpkg::package
 #
 # This module manages dpkg
 #
@@ -10,7 +10,8 @@
 #
 # == Sample Usage:
 #
-class dpkg {
-  class { 'dpkg::package': }
-  class { 'dpkg::config': }
+class dpkg::package {
+  package { 'dpkg':
+    ensure => present,
+  }
 }
