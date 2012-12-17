@@ -21,7 +21,7 @@
     "manifests/config.pp": "c83056a5686b80c69a271da3a14c35af",
     "manifests/init.pp": "291082e8142d6b2cd47228553fb4d1e1",
     "manifests/package.pp": "aadc4d00778a1d5f4b12be0130a7612f",
-    "manifests/params.pp": "df960a98aaa8ba3e29191c9c3dab0c6a",
+    "manifests/params.pp": "8aaba0d1f09fce1e7036f71cc5397dba",
     "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
     "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
     "tests/init.pp": "6ede9ad33fdb2396490dc57aa0d52320"

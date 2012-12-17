@@ -12,7 +12,7 @@
 #
 class dpkg::params {
   case $::lsbdistcodename {
-    'squeeze', 'wheezy', 'precise': {
+    'squeeze', 'wheezy', 'precise', 'quantal': {
       $ensure = present
     }
     default: {
