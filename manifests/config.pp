@@ -17,16 +17,18 @@ class dpkg::config (
 
   file {
     '/etc/cron.d/get-selections':
-      ensure => $ensure,
-      owner  => 'root',
-      group  => 'root',
-      mode   => '0644',
-      source => 'puppet:///modules/dpkg/common/etc/cron.d/get-selections';
+      ensure  => $ensure,
+      owner   => 'root',
+      group   => 'root',
+      mode    => '0644',
+      source  => 'puppet:///modules/dpkg/common/etc/cron.d/get-selections',
+      require => Package['dpkg'];
     '/etc/logrotate.d/get-selections':
-      ensure => $ensure,
-      owner  => 'root',
-      group  => 'root',
-      mode   => '0644',
-      source => 'puppet:///modules/dpkg/common/etc/logrotate.d/get-selections';
+      ensure  => $ensure,
+      owner   => 'root',
+      group   => 'root',
+      mode    => '0644',
+      source  => 'puppet:///modules/dpkg/common/etc/logrotate.d/get-selections',
+      require => Package['logrotate'];
   }
 }

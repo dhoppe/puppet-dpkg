@@ -11,7 +11,9 @@
 # == Sample Usage:
 #
 class dpkg::package {
-  package { 'dpkg':
-    ensure => present,
+  package { [
+    'dpkg',
+    'logrotate' ]:
+      ensure => present,
   }
 }
