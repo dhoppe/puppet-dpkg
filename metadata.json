@@ -9,7 +9,8 @@
   "version": "0.1.0",
   "checksums": {
     ".fixtures.yml": "022a15034281f80b10f3b3e183171b56",
-    ".gemfile": "73cc3f47b89e2b1dbde81dd5cb35d230",
+    ".gemfile": "8efe80ce77664d65fcfb7abb1f3f33c4",
+    ".project": "5a3f35f08024411d3388fcabdc16a1fe",
     ".travis.yml": "42dc25c6f766b53cbe7cbe8c5a293561",
     "LICENSE": "b234ee4d69f5fce4486a80fdaf4a4263",
     "Modulefile": "2095266652c7fd7054fcc1ed7ca432c1",
